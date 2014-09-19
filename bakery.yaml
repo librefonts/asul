@@ -1,0 +1,6 @@
+commit: HEAD
+process_files: [Asul-Regular.ttf.ttx, Asul-Bold.ttf.ttx, src/Asul-Regular.otf.ttx,
+  src/Asul-Bold.otf.ttx, src/Asul-Regular-TTF.sfd, src/Asul-Bold-TTF.sfd]
+pyftsubset: --notdef-outline --name-IDs=* --hinting
+subset: [latin]
+ttfautohint: -l 7 -r 28 -G 50 -x 13 -w "G"
